@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="site-logo">Global News Hub</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#trending">Trending</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="site-main">
+        <section id="hero" class="hero">
+            <div class="container">
+                <h2>Stay Informed, Stay Ahead</h2>
+                <p>Your one-stop destination for global news and insights</p>
+                <form id="search-form" class="search-form">
+                    <input type="text" id="search-input" placeholder="Search for news...">
+                    <button type="submit" id="search-button">Search</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="featured-news" class="featured-news">
+            <div class="container">
+                <h2>Featured Stories</h2>
+                <div class="news-grid">
+                    <article class="news-item">
+                        <img src="/api/placeholder/400/300" alt="News 1">
+                        <h3>Breaking: Major Scientific Discovery</h3>
+                        <p>Scientists announce groundbreaking findings in quantum computing...</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </article>
+                    <article class="news-item">
+                        <img src="/api/placeholder/400/300" alt="News 2">
+                        <h3>Global Economy on the Rise</h3>
+                        <p>Markets show positive trends as global trade agreements take effect...</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </article>
+                    <article class="news-item">
+                        <img src="/api/placeholder/400/300" alt="News 3">
+                        <h3>New Environmental Policies Announced</h3>
+                        <p>World leaders agree on ambitious climate action plan...</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="categories" class="categories">
+            <div class="container">
+                <h2>News Categories</h2>
+                <div class="category-grid">
+                    <a href="#" class="category-item">Politics</a>
+                    <a href="#" class="category-item">Technology</a>
+                    <a href="#" class="category-item">Business</a>
+                    <a href="#" class="category-item">Science</a>
+                    <a href="#" class="category-item">Health</a>
+                    <a href="#" class="category-item">Entertainment</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="external-news" class="external-news">
+            <div class="container">
+                <h2>News from Trusted Sources</h2>
+                <div class="source-grid">
+                    <a href="https://www.bbc.com/news" target="_blank" class="source-item">BBC News</a>
+                    <a href="https://www.reuters.com/" target="_blank" class="source-item">Reuters</a>
+                    <a href="https://www.aljazeera.com/" target="_blank" class="source-item">Al Jazeera</a>
+                    <a href="https://apnews.com/" target="_blank" class="source-item">Associated Press</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="newsletter" class="newsletter">
+            <div class="container">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter for daily news updates</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2024 Global News Hub. All rights reserved.</p>
+            <nav class="footer-nav">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Contact Us</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
